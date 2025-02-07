@@ -50,7 +50,6 @@ class FTP:
             try:
                 # Send a NOOP command to validate the connection.
                 self.ftp.voidcmd("NOOP")
-                logger.info("Already connected to FTP server.")
                 return
             except ftplib.all_errors as e:
                 logger.warning(f"Existing FTP connection appears stale: {e}. Reconnecting...")
