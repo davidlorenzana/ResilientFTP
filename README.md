@@ -70,7 +70,7 @@ ResilientFTP supports delegating other FTP commands via `__getattr__`. For examp
 
 ```python
 # Access underlying FTP methods with automatic retry handling.
-with FTPHandler("ftp.example.com", user="username", password="password") as ftp:
+with FTP("ftp.example.com", user="username", password="password") as ftp:
     # For example, list files in a directory:
     files = ftp.nlst()
     print(files)
