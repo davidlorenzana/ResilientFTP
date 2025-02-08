@@ -223,4 +223,3 @@ if __name__ == "__main__":
             ftp_handler.download_file(REMOTE_FILE, LOCAL_FILE, EXPECTED_MD5)
     except Exception as e:
         logger.error(f"An error occurred: {e}")
-

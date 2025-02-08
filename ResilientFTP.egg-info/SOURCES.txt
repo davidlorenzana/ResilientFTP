@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ResilientFTP.egg-info/PKG-INFO
+ResilientFTP.egg-info/SOURCES.txt
+ResilientFTP.egg-info/dependency_links.txt
+ResilientFTP.egg-info/requires.txt
+ResilientFTP.egg-info/top_level.txt
+resilientftp/__init__.py
+resilientftp/resilientftp.py
