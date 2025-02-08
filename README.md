@@ -78,7 +78,7 @@ with FTP("ftp.example.com", user="username", password="password") as ftp:
 
 ## API Overview
 
-### `FTPHandler(host: str, user: Optional[str] = None, password: Optional[str] = None, retries: int = 5)`
+### `FTP(host: str, user: Optional[str] = None, password: Optional[str] = None, retries: int = 5)`
 
 Initializes the FTP handler with the target FTP server, credentials, and the maximum number of retry attempts.
 

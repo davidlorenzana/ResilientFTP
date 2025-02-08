@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ResilientFTP",
-    version="0.1.1",
+    version="0.1.2",
     description="Handle FTP connections with automatic retry and reconnection logic.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
